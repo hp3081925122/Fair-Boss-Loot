@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.hp.fairbossloot.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "minVersion": "0.8",
+  "mixins": [
+    "EntityMixin",
+    "ItemEntityMixin",
+    "HopperBlockEntityMixin",
+    "ExperienceOrbMixin",
+    "LivingEntityDropMixin",
+    "MobDropMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
